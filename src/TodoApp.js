@@ -5,7 +5,7 @@ import TodoList from './TodoList';
 const TodoApp = () => {
   const [todos, setTodos] = useState([
     { id: 1, task: 'Learn React', completed: false },
-    { id: 2, task: 'Build a todo app', completed: true },
+    { id: 2, task: 'Build a todo app', completed: false },
   ]);
 
   const addTodo = (task) => {
